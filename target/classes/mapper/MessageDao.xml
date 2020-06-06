@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nbclass.mapper.dao.MessageDao">
+
+    <resultMap type="com.nbclass.model.entity.Message" id="MessageMap">
+        <result property="msg_id" column="msg_Id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="cl_id" column="cl_id" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="MessageMap">
+        select
+          msg_id, name, cl_id, title, content, create_time, update_time
+        from message
+        where msg_id = #{msg_id}
+    </select>
+    <select id="queryType" resultMap="MessageMap" parameterType="message">
+        select msg_id , cl_id, create_time, update_time
+        from message
+        <where>
+            <if test="cl_id != null and cl_id != ''">
+                and cl_id=#{cl_id}
+            </if>
+        </where>
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="MessageMap">
+        select
+          msg_id, name, cl_id, title, content, create_time, update_time
+        from message
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="MessageMap">
+        select
+          msg_id, name, cl_id, title, content, create_time, update_time
+        from message
+        <where>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+        </where>
+    </select>
+
+
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update message
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content},
+            </if>
+        </set>
+        where msg_id = #{msg_id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from message where msg_id = #{msg_id}
+    </delete>
+    <delete id="deleteteaStatusBatch" parameterType="list">
+        delete from message where msg_id in
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+
+</mapper>

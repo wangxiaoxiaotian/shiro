@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nbclass.mapper.dao.ArticleDao">
+    <resultMap id="artcleMap" type="com.nbclass.model.entity.Article">
+        <result property="id" column="id"/>
+        <result property="article_id" column="article_id"/>
+        <result property="title" column="title"/>
+        <result property="content" column="content"/>
+        <result property="createTime" column="createTime"/>
+        <result property="give" column="give"/>
+        <result property="follow" column="follow"/>
+        <result property="cl_id" column="cl_id"/>
+    </resultMap>
+    <select id="queryAllByLimit" resultMap="artcleMap" parameterType="int">
+        select * from article limit #{offset}, #{limit}
+    </select>
+    <select id="queryAll" parameterType="com.nbclass.model.entity.Article" resultMap="artcleMap">
+        select * from article
+        <where>
+            <if test="title != null and title != ''">
+                title = #{title}
+            </if>
+        </where>
+    </select>
+    <select id="queryByName" resultMap="artcleMap" parameterType="string">
+        select * from article where title = #{title}
+    </select>
+    <delete id="delteById" parameterType="string" >
+        delete from article where article_id = #{article_id}
+    </delete>
+    <delete id="delteBatch" parameterType="list">
+        delete from article where article_id in
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <update id="updateArticle" parameterType="com.nbclass.model.entity.Article">
+        update article
+        <set>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content}
+            </if>
+        </set>
+        where article_id = #{article_id}
+    </update>
+    <insert id="addArticle" parameterType="com.nbclass.model.entity.Article">
+        insert into article (article_id,title,content,createTime,give,follow,cl_id)values (#{article_id},
+        #{title},#{content},#{createTime},#{give},#{follow},#{cl_id})
+    </insert>
+    <select id="queryById" parameterType="string" resultMap="artcleMap">
+        select * from article where article_id = #{article_id}
+    </select>
+</mapper>

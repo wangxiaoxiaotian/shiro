@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nbclass.mapper.dao.VideoDao">
+    <resultMap id="videoMap" type="com.nbclass.model.entity.Video">
+        <result property="id" column="id"/>
+        <result property="video_id" column="video_id"/>
+        <result property="address" column="address"/>
+        <result property="title" column="title"/>
+        <result property="follow" column="follow"/>
+        <result property="give" column="give"/>
+    </resultMap>
+    <select id="queryAll" resultMap="videoMap" parameterType="com.nbclass.model.entity.Video">
+        select * from video
+        <where>
+            <if test="title != null and title != ''">
+                title = #{title}
+            </if>
+        </where>
+    </select>
+    <select id="queryAllByLimit" resultMap="videoMap" parameterType="int">
+        select * from video limit #{offset}, #{limit} limit
+    </select>
+    <update id="updateVideo" parameterType="com.nbclass.model.entity.Video">
+        update video
+        <set>
+            <if test="address != null and address != ''">
+                address = #{address}
+            </if>
+        </set>
+        where video_id = #{video_id}
+    </update>
+    <insert id="addVideo" parameterType="com.nbclass.model.entity.Video">
+        insert into video
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="title != null and title !=''">
+                title,
+            </if>
+            <if test="address != null and address != ''">
+                address,
+            </if>
+            <if test="give != null">
+                give,
+            </if>
+            <if test="follow != null">
+                follow,
+            </if>
+            <if test="video_id != null">
+                video_id
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="title != null">
+                #{title},
+            </if>
+            <if test="address != null">
+                #{address},
+            </if>
+            <if test="give != null">
+                #{give},
+            </if>
+            <if test="follow != null ">
+                #{follow},
+            </if>
+            <if test="video_id != null">
+                #{video_id}
+            </if>
+        </trim>
+    </insert>
+
+    <delete id="delteById" parameterType="string">
+        delete from video where video_id = #{video_id}
+    </delete>
+    <delete id="delteBatch" parameterType="list">
+        delete from video where video_id in
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <select id="queryById" parameterType="string" resultMap="videoMap">
+        select * from video where video_id = #{video_id}
+    </select>
+    <select id="queryByName" resultMap="videoMap" parameterType="string">
+        select * from video where title = #{title}
+    </select>
+</mapper>

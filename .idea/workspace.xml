@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d9f53553-cc51-4363-b177-400fbf212131" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/wx_shiro/target/" />
+    <ignored path="$PROJECT_DIR$/shiro_wx/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/SystemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2581">
+              <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/shiro/MyShiroRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mapper.xml" />
+        <option value="kaptcha" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/model/entity/article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/service/service/ArticleServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/service/service/impl/ArticleServicesImple.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/article/userDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/controller/ArtcleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/mapper/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/shiro_wx/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/classify/classifyDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/article/articleDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/classify/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/teacher/teaDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/video/videoDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/teacher/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TeacherDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/student/stuDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/student/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/wxcontroller/WxRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/service/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/mapper/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/service/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/wxcontroller/WxLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/StudentDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/video/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/enums/ResponseStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/article/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/model/entity/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticlDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/service/service/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/model/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/message/messageDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/mapper/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/message/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/SpringbootApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/vo/base/ResponseVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/vo/base/PageResultVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/SystemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/model/UserRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/util/CoreConst.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/util/PasswordHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home/fragments/top.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/controller/DatabaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/util/UUIDUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/config/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nbclass/util/CopyUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Documents/rep" />
+        <option name="userSettingsFile" value="$USER_HOME$/Downloads/apache-maven-3.6.0 2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="959" />
+  </component>
+  <component name="ProjectId" id="1Sy6VllD1uri8GcrqoJSYYs07AW" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nbclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nbclass" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zb-shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zb-shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="db2&#10;mysql" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590734137549" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/article" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/classify" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/video" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/message" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/student" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 87 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 87 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="zb-shiro" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootApplication">
+    <configuration name="UUIDUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nbclass.util.UUIDUtil" />
+      <module name="zb-shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nbclass.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroWxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro_wx" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.shiro_wx.ShiroWxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zb-shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nbclass.SpringbootApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wx_shiro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.wx_shiro.WxShiroApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UUIDUtil" />
+      <item itemvalue="Spring Boot.ShiroWxApplication" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
+      <item itemvalue="Spring Boot.WxShiroApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UUIDUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9f53553-cc51-4363-b177-400fbf212131" name="Default Changelist" comment="" />
+      <created>1572523513793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572523513793</updated>
+      <workItem from="1572523515539" duration="177000" />
+      <workItem from="1572529907822" duration="2083000" />
+      <workItem from="1572574367566" duration="5108000" />
+      <workItem from="1572579929188" duration="8356000" />
+      <workItem from="1572592611476" duration="6247000" />
+      <workItem from="1572602552913" duration="8668000" />
+      <workItem from="1572616206191" duration="1478000" />
+      <workItem from="1572620049566" duration="209000" />
+      <workItem from="1572660266350" duration="3389000" />
+      <workItem from="1572672825009" duration="253000" />
+      <workItem from="1572699522967" duration="212000" />
+      <workItem from="1572705082483" duration="33000" />
+      <workItem from="1572756798110" duration="18000" />
+      <workItem from="1572845518774" duration="10279000" />
+      <workItem from="1572867291785" duration="2619000" />
+      <workItem from="1572875038999" duration="33000" />
+      <workItem from="1572877296328" duration="93000" />
+      <workItem from="1572941652528" duration="220000" />
+      <workItem from="1572941876519" duration="993000" />
+      <workItem from="1572944383187" duration="413000" />
+      <workItem from="1572944974847" duration="246000" />
+      <workItem from="1572953285642" duration="633000" />
+      <workItem from="1573277096056" duration="54000" />
+      <workItem from="1573277296641" duration="17000" />
+      <workItem from="1573277662082" duration="19000" />
+      <workItem from="1573481016975" duration="6000" />
+      <workItem from="1573627650643" duration="129000" />
+      <workItem from="1575016110317" duration="69000" />
+      <workItem from="1575357950034" duration="474000" />
+      <workItem from="1575358426484" duration="366000" />
+      <workItem from="1576916460745" duration="459000" />
+      <workItem from="1577182731861" duration="199000" />
+      <workItem from="1577845967729" duration="1904000" />
+      <workItem from="1577941647248" duration="13000" />
+      <workItem from="1577955543673" duration="1557000" />
+      <workItem from="1578042245143" duration="403000" />
+      <workItem from="1578043854544" duration="45000" />
+      <workItem from="1578043910949" duration="241000" />
+      <workItem from="1578044541663" duration="1260000" />
+      <workItem from="1578054680100" duration="460000" />
+      <workItem from="1578056807653" duration="1220000" />
+      <workItem from="1578114877173" duration="4000" />
+      <workItem from="1578634324360" duration="117000" />
+      <workItem from="1578640698995" duration="413000" />
+      <workItem from="1578641170404" duration="121000" />
+      <workItem from="1578641886089" duration="359000" />
+      <workItem from="1578644292723" duration="1082000" />
+      <workItem from="1578646163107" duration="527000" />
+      <workItem from="1578647922714" duration="45000" />
+      <workItem from="1578656860959" duration="37000" />
+      <workItem from="1578905562657" duration="97000" />
+      <workItem from="1579244817592" duration="426000" />
+      <workItem from="1582515604560" duration="784000" />
+      <workItem from="1582677894241" duration="947000" />
+      <workItem from="1582786732128" duration="143000" />
+      <workItem from="1582804541845" duration="145000" />
+      <workItem from="1583812062882" duration="18000" />
+      <workItem from="1583840162105" duration="10276000" />
+      <workItem from="1583891995520" duration="2502000" />
+      <workItem from="1583923493794" duration="2784000" />
+      <workItem from="1584794364223" duration="5493000" />
+      <workItem from="1584958623678" duration="1691000" />
+      <workItem from="1585015801555" duration="3237000" />
+      <workItem from="1585099308750" duration="46000" />
+      <workItem from="1586874700856" duration="36000" />
+      <workItem from="1586875387380" duration="361000" />
+      <workItem from="1587190104657" duration="120000" />
+      <workItem from="1587309698887" duration="33000" />
+      <workItem from="1587310284595" duration="352000" />
+      <workItem from="1587391642948" duration="7592000" />
+      <workItem from="1587479819076" duration="4878000" />
+      <workItem from="1587484870188" duration="314000" />
+      <workItem from="1587532403259" duration="23091000" />
+      <workItem from="1587645954804" duration="15135000" />
+      <workItem from="1587743031610" duration="2774000" />
+      <workItem from="1587797503774" duration="2572000" />
+      <workItem from="1588254745519" duration="2096000" />
+      <workItem from="1588401066896" duration="6354000" />
+      <workItem from="1588520414924" duration="550000" />
+      <workItem from="1588598585264" duration="15279000" />
+      <workItem from="1588858851617" duration="2090000" />
+      <workItem from="1589181775198" duration="867000" />
+      <workItem from="1589326732166" duration="4000" />
+      <workItem from="1589333081270" duration="298000" />
+      <workItem from="1589341591304" duration="4323000" />
+      <workItem from="1589352077451" duration="4097000" />
+      <workItem from="1589369707086" duration="851000" />
+      <workItem from="1589422171719" duration="1277000" />
+      <workItem from="1589428577907" duration="113000" />
+      <workItem from="1589447567141" duration="608000" />
+      <workItem from="1589456059210" duration="106000" />
+      <workItem from="1589456180459" duration="83000" />
+      <workItem from="1589537631180" duration="1041000" />
+      <workItem from="1589809205173" duration="367000" />
+      <workItem from="1589847648180" duration="1023000" />
+      <workItem from="1589979112904" duration="251000" />
+      <workItem from="1589979985421" duration="696000" />
+      <workItem from="1590388571691" duration="420000" />
+      <workItem from="1590402182156" duration="609000" />
+      <workItem from="1590409166887" duration="134000" />
+      <workItem from="1590459953175" duration="6429000" />
+      <workItem from="1590474159128" duration="1063000" />
+      <workItem from="1590560162787" duration="1969000" />
+      <workItem from="1590563678166" duration="401000" />
+      <workItem from="1590583569355" duration="1173000" />
+      <workItem from="1590593168204" duration="140000" />
+      <workItem from="1590625608350" duration="576000" />
+      <workItem from="1590660219172" duration="81000" />
+      <workItem from="1590660324106" duration="9000" />
+      <workItem from="1590660829266" duration="2009000" />
+      <workItem from="1590717158427" duration="4113000" />
+      <workItem from="1590734385859" duration="237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="150285000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="959" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.21794872" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.22385861" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3217993" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6268657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17064439" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18714121" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" weight="0.37828162" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3295063" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.23858616" />
+      <window_info anchor="right" id="RestServices" order="10" weight="0.2863248" />
+      <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
+      <window_info anchor="right" id="Json Parser" order="12" weight="0.3298969" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822065" visible="true" weight="0.25518927" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.22385861" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25487944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6268657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17064439" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.18714121" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" weight="0.37828162" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3295063" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.23858616" />
+      <window_info anchor="right" id="RestServices" order="10" weight="0.16178267" />
+      <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
+      <window_info anchor="right" id="Json Parser" order="12" weight="0.3298969" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1294" height="189" key="GridCell.Tab.0.bottom" timestamp="1578061433237">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1578061433237" />
+    <state width="1294" height="189" key="GridCell.Tab.0.center" timestamp="1578061433237">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1578061433237" />
+    <state width="1294" height="189" key="GridCell.Tab.0.left" timestamp="1578061433236">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1578061433236" />
+    <state width="1294" height="189" key="GridCell.Tab.0.right" timestamp="1578061433237">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1578061433237" />
+    <state width="1294" height="189" key="GridCell.Tab.1.bottom" timestamp="1578061433238">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.1.bottom/0.23.1680.970@0.23.1680.970" timestamp="1578061433238" />
+    <state width="1294" height="189" key="GridCell.Tab.1.center" timestamp="1578061433238">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.1.center/0.23.1680.970@0.23.1680.970" timestamp="1578061433238" />
+    <state width="1294" height="189" key="GridCell.Tab.1.left" timestamp="1578061433237">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.1.left/0.23.1680.970@0.23.1680.970" timestamp="1578061433237" />
+    <state width="1294" height="189" key="GridCell.Tab.1.right" timestamp="1578061433238">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.1.right/0.23.1680.970@0.23.1680.970" timestamp="1578061433238" />
+    <state width="1294" height="189" key="GridCell.Tab.2.bottom" timestamp="1578061433239">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.2.bottom/0.23.1680.970@0.23.1680.970" timestamp="1578061433239" />
+    <state width="1294" height="189" key="GridCell.Tab.2.center" timestamp="1578061433239">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.2.center/0.23.1680.970@0.23.1680.970" timestamp="1578061433239" />
+    <state width="1294" height="189" key="GridCell.Tab.2.left" timestamp="1578061433238">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.2.left/0.23.1680.970@0.23.1680.970" timestamp="1578061433238" />
+    <state width="1294" height="189" key="GridCell.Tab.2.right" timestamp="1578061433239">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state width="1294" height="189" key="GridCell.Tab.2.right/0.23.1680.970@0.23.1680.970" timestamp="1578061433239" />
+    <state x="266" y="132" key="SettingsEditor" timestamp="1577846072429">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="266" y="132" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1577846072429" />
+    <state x="442" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1578114878686">
+      <screen x="0" y="23" width="1680" height="970" />
+    </state>
+    <state x="442" y="326" key="com.intellij.ide.util.TipDialog/0.23.1680.970@0.23.1680.970" timestamp="1578114878686" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/model/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/userDetail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home/fragments/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/musicPlayer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/permission/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3538" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-656">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/DatabaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/SpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/ChangePasswordVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/PermissionTreeListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/UserOnlineVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/UserSessionVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/CoreConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/CoreUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/PasswordHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/UUIDUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3544">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6177">
+          <caret line="213" column="160" selection-start-line="213" selection-start-column="160" selection-end-line="213" selection-end-column="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/base/ResponseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4843">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/vo/base/PageResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/RenderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/OnlineUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/KaptchaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticlDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/IpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/util/CopyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/message/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/shiro/ShiroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="50" column="92" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/shiro/filter/KickoutSessionControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/shiro/PermsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/VideoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/controller/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2581">
+          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nbclass/shiro/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zb-shiro</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

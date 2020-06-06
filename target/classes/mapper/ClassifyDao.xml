@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nbclass.mapper.dao.ClassDao">
+    <resultMap id="classifyMap" type="com.nbclass.model.entity.Classify">
+        <result property="id" column="id" ></result>
+        <result property="class_id" column="class_id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+    <select id="queryAllByLimit" resultMap="classifyMap" parameterType="com.nbclass.model.entity.Classify">
+      select id ,class_id,name from classify  limit #{offset}, #{limit}
+    </select>
+    <select id="queryById" resultMap="classifyMap" parameterType="string">
+        select id,class_id,name from classify where class_id = #{class_id}
+    </select>
+    <select id="queryByName" resultMap="classifyMap" parameterType="string">
+        select id ,class_id,name from classify where name = #{name}
+    </select>
+    <insert id="addClassify" parameterType="com.nbclass.model.entity.Classify" keyColumn="id" useGeneratedKeys="true">
+        insert into classify (class_id,name)values (#{class_id},#{name})
+    </insert>
+    <update id="updateClassify"  parameterType="com.nbclass.model.entity.Classify">
+        update classify
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name}
+            </if>
+        </set>
+        where class_id = #{class_id}
+    </update>
+    <delete id="delteById" parameterType="string">
+        delete from classify where class_id = #{class_id}
+    </delete>
+    <delete id="delteBatch" parameterType="list">
+        delete from classify where class_id in
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <select id="queryAll" parameterType="com.nbclass.model.entity.Classify" resultMap="classifyMap">
+        select * from classify
+        <where>
+            <if test="name != null and name != ''">
+                name = #{name}
+            </if>
+        </where>
+    </select>
+</mapper>
